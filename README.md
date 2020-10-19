@@ -23,7 +23,7 @@ We will be using several pieces of software in this workshop. These are widely u
 
 1. [**R**](https://www.r-project.org/) is a free statistical software package that is supported by all platforms (Windows, Mac and Linux). If you already have R, please ensure your version of R is above v4.0.
 2. [**RStudio**](https://rstudio.com/products/rstudio/download/) is an Interactive Development Environment (**IDE**) that is widely used and includes a number of tools to help with scripting.
-3. [**`git`**](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) is a widely used version control software package that keeps track of changes you make in any kind of file, across multiple projects.
+3. [**`git`**](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) is a widely used version control software package that keeps track of changes you make in any kind of file, across multiple projects. **NOTE**: Most installations only need the default settings.
 4. [**`pandoc`**](https://pandoc.org/installing.html) is a piece of software that helps users change document formats between Markdown, HTML, PDF, docx and others. Pandoc also supports embedded citations, graphics and other stuff that's cool.
 
 ### Check that everything works!
