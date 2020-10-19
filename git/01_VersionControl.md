@@ -19,7 +19,7 @@ Version Control refers to a class of systems responsible for monitoring changes 
 
 At the heart of most modern version control is `git`. `git` is the "language" we use to communicate with GitHub. Although `git` is mostly used for code, it can be used to manage any other type of file, such as Word documents. Think of it as a filing system for every draft of a document.
 
-`git` treats each line in a document as an individual element. When any line is changed, `git` keeps track of the file, the line or lines that were changed, and what the new version of that line looks like. In general this is represented as _insertions_ and _deletions_.
+`git` treats each line in a document as an individual element. When any line is changed, `git` keeps track of the file, the line or lines that were changed, and what the new version of that file looks like. In general this is represented as _insertions_ and _deletions_, but in reality, `git` stores snapshots of your files whenever they change, and basically functions as a filesystem of its own.
 
 ## An Example of Changes
 
@@ -45,9 +45,9 @@ Here is line one
 + Here is line two
 ```
 
-`git` tells us we have deleted the line `Now this is line two` and inserted the line `Here is line two`. This way `git` stores each _committed_ change as the _subtraction of 0 or more elements_, and _addition of zero or more elements_. This way we don't have to store whole versions of each file every time we make a change. The final version of a file is the sum total of all additions and subtractions, in order.
+`git` tells us we have deleted the line `Now this is line two` and inserted the line `Here is line two`. But, in the back end of the system, `git` now has two versions of the same file, the original and the new version, and presents us with the places these two files differ. [The `git` documentation](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F#what_is_git_section) gives you a much fuller picture of how this all works.
 
-So why do it?
+So why use `git`?
 
 ## Why use Version Control?
 
@@ -80,7 +80,7 @@ This was maybe a bad example, since there is already a folder in here called `gi
 3. Once you had staged a set of related changes, you would `git commit` those changes with some message, indicating what had been done. The commit message is intended to be brief, but descriptive, so other people (and future-you) can understand why the changes were made. You can reload the [`whatthecommit` bad message generator](http://whatthecommit.com/) a few times to see some less-than-helpful messages.
 4. Repeat 2 & 3 until you're done with the project.
 
-As
+As projects get more complex, and particularly, as more people get involved, we begin to see things like **branches** and **forks** appear, and we learn about **conflicts**.
 
 ## An Introduction to GitHub
 
