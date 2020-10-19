@@ -17,7 +17,9 @@ dir: ltr
 
 Version Control refers to a class of systems responsible for monitoring changes to objects on your computer. These can be documents, software or images. Working with Version Control means that you can recover files or re-use specific file changes if you accidentally destroy a file or lose it.
 
-The most common version control system (`git`) treats each individual line in a document as an individual element. When any single line is changed, `git` keeps track of the file, the line or lines that were changed, and what the new version of that line looks like. In general this is represented as _insertions_ and _deletions_.
+At the heart of most modern version control is `git`. `git` is the "language" we use to communicate with GitHub. Although `git` is mostly used for code, it can be used to manage any other type of file, such as Word documents. Think of it as a filing system for every draft of a document.
+
+`git` treats each line in a document as an individual element. When any line is changed, `git` keeps track of the file, the line or lines that were changed, and what the new version of that line looks like. In general this is represented as _insertions_ and _deletions_.
 
 ## An Example of Changes
 
@@ -28,26 +30,61 @@ Here is line one
 Now this is line two
 ```
 
-Now, I want to make a change:
+Now, I make (and save) a change:
 
 ```
 Here is line one
 Here is line two
 ```
 
-When we check `git` we'll see that it considers that we have deleted the line `Now this is line two` and inserted the line `Here is line two`.
+To `git`, this change looks like:
 
-# Why use Version Control?
+```
+Here is line one
+- Now this is line two
++ Here is line two
+```
 
-## Examples
+`git` tells us we have deleted the line `Now this is line two` and inserted the line `Here is line two`. This way `git` stores each _committed_ change as the _subtraction of 0 or more elements_, and _addition of zero or more elements_. This way we don't have to store whole versions of each file every time we make a change. The final version of a file is the sum total of all additions and subtractions, in order.
 
-![*“Piled Higher and Deeper” by Jorge Cham, http://www.phdcomics.com*](img/01_phd_vc_comic.png){width=50%}
+So why do it?
 
-# An introduction to GitHub
+## Why use Version Control?
 
-At the heart of [GitHub](http://github.com) is `git`. `git` is the "language" we use to communicate with GitHub. Although `git` is mostly used for code, it can be used to manage any other type of file, such as Word documents. Think of it as a filing system for every draft of a document.
+![*“Piled Higher and Deeper” by Jorge Cham, http://www.phdcomics.com*](img/01_phd_vc_comic.png)
 
-GitHub is a `git` repository hosting service with many of its own features. While `git`is a command line tool, GitHub provides a Web-based graphical interface.
+Here are some things that can happen while you're working on code, or a paper:
+
+- You've been working on a figure, and suddenly the plot stops working the way you expected, but you've made a few changes and don't know which one caused the problem.
+- You got rid of part of your analysis but now realize you need it back.
+- You are collaborating with a partner and want to see changes they've made to the code.
+- You are working with a partner and want to make changes to the same files at the same time.
+- You've got 10 files called `final`.
+- You lost all your files.
+- You want to know why you (or someone else) made certain changes.
+
+## A (very) Brief Introduction to `git`
+
+As indicated above, `git` records changes to files. It does this in a **repository**. This is usually your project folder, along with a hidden folder (called `.git`) in that project folder. So you might have a folder that looks like this:
+
+![Image of a folder that is a tracked git repository](../images/gitRepositoryFolder.png)
+
+This was maybe a bad example, since there is already a folder in here called `git`, which contains this article, but you can see there's also a `.git` folder that contains 12 items. These items include a record of all the changes made in the repository so far, as well as some other utilities that can be associated with a `git` repository.
+
+### How `git` works:
+
+`git` started out as a commandline tool. The general workflow was that:
+
+1. We would `git init` to initialize a repository. This would create the neccessary folder to track the project changes.
+2. Once changes had been made in a repository (you've added a file, made edits to an existing file) you would `git add` them to _stage_ those changes, in preparation for adding the changes to the repository.
+3. Once you had staged a set of related changes, you would `git commit` those changes with some message, indicating what had been done. The commit message is intended to be brief, but descriptive, so other people (and future-you) can understand why the changes were made. You can reload the [`whatthecommit` bad message generator](http://whatthecommit.com/) a few times to see some less-than-helpful messages.
+4. Repeat 2 & 3 until you're done with the project.
+
+As
+
+## An Introduction to GitHub
+
+[GitHub](http://github.com) is a hosting service for `git` repositories. GitHub has a number of other features as well, particularly `Issues` and `Project` management tools. `git`is the command line tool, but GitHub provides a web and desktop graphical interface.
 
 Beyond managing and keeping versions of documents under control, there are other reasons for using the `git`/Github version control system:
 
