@@ -17,3 +17,5 @@ And then a few of the values are going to change.
 And you're going to go back, and make one of the graphs again, and you're going to find every instance of that p-value and you're going to have to change it. And the correlation coefficient is now different and so you have to fix a couple of paragraphs, to reflect that change. And you missed one of them, and your advisor let you know and you feel kinda bad about that.
 
 And that transformation, from tiny mineral chunk to paper gets more and more frustrating with each revision and each change.
+
+This process is reflected in software development. A simple idea for a program gets built out, over time, sometimes with multiple developers. Features are added and taken away, sometimes features can conflict, and in the end we need to create an integrated product.
