@@ -1,26 +1,32 @@
 ---
 title: My Thesis
-author: Your Name Here
+author: You
 output: html_document
 bibliography: bibliography/bibliography.bib
 ---
+
+# Knitting your Thesis
+
+Open this `Rmd` file in RMarkdown. It should all be ready to go, to turn it into a cool `HTML` document. To do that, look at the RStudio toolbar and click the `knit` button:
+
+![](../images/knitbutton.png)
+
+You can also knit (or render) your RMarkdown documents using the command line. There are good reasons for doing this, and cool tricks you can try (see the Tips & Tricks later in the workshop). To do that, go to the folder that your RMarkdown document is in and type in the command:
+
+```
+Rscript -e "rmarkdown::render('filename.Rmd')"
+```
+
+No need to try it here, but just wanted to mention it :)
 
 # Templates
 
 Most universities and departments make a Word or latex template available for theses. For example, the [template in the `templates` folder](templates/thesistemplate.docx) is provided by [Simon Fraser University](https://www.lib.sfu.ca/help/publish/thesis/templates).
 
-## Small R Chunk
-
-```{r}
-x = 2
-```
-
-Here's some inline code where I show that `r x` is the value of `x`.
-
-# Adding Citations
+# Bibliography
 
 Pandoc (and by extension, RMarkdown) can support the use of a bibliography in [Bibtex format](http://www.bibtex.org/). These references can be rendered into a number of different formats using an XML-type file called the [Citation Style Language](https://citationstyles.org/), or CSL. These files define how the reference is rendered and referenced in text. You can see a full list of available formats (for a large number of journals) in the [CSL Github styles repository](https://github.com/citation-style-language/styles).
 
 If I wanted to cite a paper, for example, the winner of an IgNobel prize for making feces knives [@eren2019experimental], I could simply add an in text citation to my bibliography file.
 
-# References
+There's some great information about using RMarkdown citations & bibliographies on the RStudio
