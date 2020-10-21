@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="230.13161mm"
+   height="94.941216mm"
+   viewBox="0 0 230.13161 94.941216"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (1.0.1+r73)"
+   sodipodi:docname="ideapipeline.svg">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="marker2569"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path2567" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2287"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path2285" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1242" />
+    </marker>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter984">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood974" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite976" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="2.3"
+         result="blur"
+         id="feGaussianBlur978" />
+      <feOffset
+         dx="2"
+         dy="2"
+         result="offset"
+         id="feOffset980" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite982" />
+    </filter>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect839-8-7-0"
+       width="39.688492"
+       height="30.847071"
+       x="50.748352"
+       y="85.014572" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect839-8-7-09"
+       width="39.688492"
+       height="30.847071"
+       x="50.748352"
+       y="85.014572" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect2281"
+       width="39.688492"
+       height="30.847071"
+       x="50.748352"
+       y="85.014572" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect839-8-7-2"
+       width="39.688492"
+       height="30.847071"
+       x="50.748352"
+       y="85.014572" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect839-8-7-2-5"
+       width="39.688492"
+       height="30.847071"
+       x="50.748352"
+       y="85.014572" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect3634"
+       width="39.688492"
+       height="30.847071"
+       x="50.748352"
+       y="85.014572" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.1750154"
+     inkscape:cx="402.48094"
+     inkscape:cy="278.80251"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="961"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(25.768044,1.232223)">
+    <rect
+       style="fill:#f2f2f1;fill-opacity:1;stroke:#000000;stroke-width:1"
+       id="rect833"
+       width="53.72945"
+       height="73.177216"
+       x="150.13411"
+       y="20.031776" />
+    <rect
+       style="fill:#f2f2f1;fill-opacity:1;stroke:#000000;stroke-width:0.508942"
+       id="rect833-8"
+       width="47.630093"
+       height="21.381798"
+       x="153.18379"
+       y="23.291412" />
+    <rect
+       style="fill:#f2f2f1;fill-opacity:1;stroke:#000000;stroke-width:0.508942"
+       id="rect833-8-5"
+       width="47.630096"
+       height="21.381798"
+       x="153.18379"
+       y="46.865623" />
+    <rect
+       style="fill:#f2f2f1;fill-opacity:1;stroke:#000000;stroke-width:0.508942"
+       id="rect833-8-5-0"
+       width="47.630096"
+       height="21.381798"
+       x="153.18379"
+       y="70.439835" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2287)"
+       d="m 46.678349,67.551355 c 0,0 19.832134,6.956836 30.171549,8.40069 26.123212,3.647991 79.128672,0.470317 79.128672,0.470317"
+       id="path2283"
+       sodipodi:nodetypes="cac" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="171.09865"
+       y="17.869677"
+       id="text837"><tspan
+         sodipodi:role="line"
+         id="tspan835"
+         x="171.09865"
+         y="17.869677"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:0.264583">Thesis</tspan></text>
+    <g
+       id="g2359"
+       transform="translate(-2.6458334,-6.3500003)">
+      <g
+         id="g861"
+         style="filter:url(#filter984)"
+         transform="translate(-0.6030258,1.2346451)">
+        <path
+           id="path843"
+           style="fill:#fff9fb;fill-opacity:1;stroke:#000000;stroke-width:1"
+           d="M 15.322225,6.9924514 A 3.5104395,3.787716 0 0 0 12.797831,8.14897 9.7578867,11.63797 0 0 0 9.3618656,7.4032792 9.7578867,11.63797 0 0 0 0.40117217,14.434374 8.8381032,9.3835878 0 0 0 -3.0161901,13.704703 a 8.8381032,9.3835878 0 0 0 -8.8382199,9.383406 8.8381032,9.3835878 0 0 0 0.86713,4.052466 26.769972,6.6778745 0 0 0 -6.177917,4.266923 26.769972,6.6778745 0 0 0 26.7699418,6.678146 26.769972,6.6778745 0 0 0 26.7699412,-6.678146 26.769972,6.6778745 0 0 0 -3.013768,-3.077848 9.017024,8.6095275 0 0 0 1.365808,-4.555794 9.017024,8.6095275 0 0 0 -5.26066,-7.826396 6.2000764,6.368349 0 0 0 0.120922,-1.25212 6.2000764,6.368349 0 0 0 -6.200139,-6.3680863 6.2000764,6.368349 0 0 0 -4.572331,2.0670573 3.5104395,3.787716 0 0 0 -3.492293,-3.4018596 z" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="-4.0491204"
+         y="30.865757"
+         id="text837-4"><tspan
+           sodipodi:role="line"
+           id="tspan835-5"
+           x="-4.0491204"
+           y="30.865757"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:0.264583">Ideas</tspan></text>
+    </g>
+    <g
+       id="g1235"
+       transform="translate(-12.798132,1.5199818)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect839-8"
+         width="39.688492"
+         height="30.847071"
+         x="19.922035"
+         y="46.9147" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="28.658466"
+         y="66.048592"
+         id="text837-4-8-8"><tspan
+           sodipodi:role="line"
+           x="28.658466"
+           y="66.048592"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:0.264583"
+           id="tspan1004-8">Data</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect839-8);opacity:0.442782;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;"
+         x="31.806396"
+         y="53.35273"
+         id="text1076"
+         transform="translate(0,-0.52916667)"><tspan
+           x="19.921875"
+           y="49.66324"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">01010100110110101100110101010101001101101011</tspan></tspan><tspan
+           x="19.921875"
+           y="52.751413"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">00110101010101001101101011001101010101010011</tspan></tspan><tspan
+           x="19.921875"
+           y="55.839586"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">01101011001101010101010011011010110011010101</tspan></tspan><tspan
+           x="19.921875"
+           y="58.927759"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">01010011011010110011010101010100110110101100</tspan></tspan><tspan
+           x="19.921875"
+           y="62.015932"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">11010101010100110110101100110101010101001101</tspan></tspan><tspan
+           x="19.921875"
+           y="65.104105"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">10101100110101010101001101101011001101010101</tspan></tspan><tspan
+           x="19.921875"
+           y="68.192277"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">01001101101011001101010101010011011010110011</tspan></tspan><tspan
+           x="19.921875"
+           y="71.28045"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">01010101010011011010110011010101010100110110</tspan></tspan><tspan
+           x="19.921875"
+           y="74.368623"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">10110011010101010100110110101100110101010101</tspan></tspan><tspan
+           x="19.921875"
+           y="77.456796"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">00110110101100110101010101001101101011001101</tspan></tspan><tspan
+           style="visibility:hidden"
+           x="19.921875"
+           y="80.510896"><tspan
+             dx="0 0.89779121"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">01</tspan></tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.700093;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 47.047019,56.283501 c 0,0 15.90915,-18.396043 26.842618,-22.476552 25.639626,-9.569034 82.088933,-1.420608 82.088933,-1.420608"
+       id="path1237"
+       sodipodi:nodetypes="cac" />
+    <g
+       id="g3623"
+       transform="translate(0,0.50735955)">
+      <g
+         id="g3596"
+         transform="translate(2.1166667,23.812499)">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect3473"
+           width="39.688492"
+           height="30.847071"
+           x="99.62516"
+           y="-8.5494823" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect839-8-7-2);opacity:0.45642;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;"
+           x="6.8128295"
+           y="117.91395"
+           id="text1092-3"
+           transform="translate(49.935144,-94.622386)"><tspan
+             x="50.748047"
+             y="87.762849"><tspan
+               style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">Our results show so many amazing things that the </tspan></tspan><tspan
+             x="50.748047"
+             y="90.851022"><tspan
+               style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">moose (Alces alcea) would never believe that our p </tspan></tspan><tspan
+             x="50.748047"
+             y="93.939195"><tspan
+               style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">value (p &lt; 0.05) was as small as it is, even with the </tspan></tspan><tspan
+             x="50.748047"
+             y="97.027368"><tspan
+               style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">proper heading of the references
+</tspan></tspan><tspan
+             x="50.748047"
+             y="100.11554"><tspan
+               style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">References
+</tspan></tspan><tspan
+             x="50.748047"
+             y="103.20371"><tspan
+               style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">Which is where we put in some stuff about our </tspan></tspan><tspan
+             x="50.748047"
+             y="106.29189"><tspan
+               style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">references and then how we actually did the analysis.  </tspan></tspan><tspan
+             x="50.748047"
+             y="109.38006"><tspan
+               style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">The Chi squared test that we did was equally </tspan></tspan><tspan
+             x="50.748047"
+             y="112.46823"><tspan
+               style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">impressive, with some values that were all over the </tspan></tspan><tspan
+             x="50.748047"
+             y="115.55641"><tspan
+               style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">place.  But mostly we were awesome as always.</tspan></tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="104.10443"
+         y="33.217678"
+         id="text837-4-8-8-5-5"><tspan
+           sodipodi:role="line"
+           x="104.10443"
+           y="33.217678"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:0.264583"
+           id="tspan1004-8-2-0">Formatting</tspan></text>
+    </g>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect839-8-7"
+       width="39.688492"
+       height="30.847071"
+       x="55.237144"
+       y="15.770376" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="62.85397"
+       y="33.978458"
+       id="text837-4-8-8-5"><tspan
+         sodipodi:role="line"
+         x="62.85397"
+         y="33.978458"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:0.264583"
+         id="tspan1004-8-2">Text</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect839-8-7);opacity:0.45642;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;"
+       x="12.359957"
+       y="47.61142"
+       id="text1092"><tspan
+         x="55.236328"
+         y="18.518709"><tspan
+           style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">Our results show so many amazing things that the </tspan></tspan><tspan
+         x="55.236328"
+         y="21.606884"><tspan
+           style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">moose (Alces alcea) would never believe that our p </tspan></tspan><tspan
+         x="55.236328"
+         y="24.695058"><tspan
+           style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">value (p &lt; 0.05) was as small as it is, even with the </tspan></tspan><tspan
+         x="55.236328"
+         y="27.783233"><tspan
+           style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">proper heading of the references
+</tspan></tspan><tspan
+         x="55.236328"
+         y="30.871408"><tspan
+           style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">References
+</tspan></tspan><tspan
+         x="55.236328"
+         y="33.959583"><tspan
+           style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">Which is where we put in some stuff about our </tspan></tspan><tspan
+         x="55.236328"
+         y="37.047758"><tspan
+           style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">references and then how we actually did the analysis.  </tspan></tspan><tspan
+         x="55.236328"
+         y="40.135931"><tspan
+           style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">The Chi squared test that we did was equally </tspan></tspan><tspan
+         x="55.236328"
+         y="43.224103"><tspan
+           style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">impressive, with some values that were all over the </tspan></tspan><tspan
+         x="55.236328"
+         y="46.312276"><tspan
+           style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">place.  But mostly we were awesome as always.</tspan></tspan></text>
+    <g
+       id="g1228-3"
+       transform="translate(4.4887939,-26.120445)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect1930"
+         width="39.688492"
+         height="30.847071"
+         x="50.748352"
+         y="85.014572" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="58.365177"
+         y="103.22266"
+         id="text837-4-8-8-5-54"><tspan
+           sodipodi:role="line"
+           x="58.365177"
+           y="103.22266"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:0.264583"
+           id="tspan1004-8-2-3">Text</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect839-8-7-09);opacity:0.45642;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;"
+         x="6.8128295"
+         y="117.91395"
+         id="text1092-6"
+         transform="translate(1.0583333,-1.0583333)"><tspan
+           x="50.748047"
+           y="87.762849"><tspan
+             style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">Our results show so many amazing things that the </tspan></tspan><tspan
+           x="50.748047"
+           y="90.851022"><tspan
+             style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">moose (Alces alcea) would never believe that our p </tspan></tspan><tspan
+           x="50.748047"
+           y="93.939195"><tspan
+             style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">value (p &lt; 0.05) was as small as it is, even with the </tspan></tspan><tspan
+           x="50.748047"
+           y="97.027368"><tspan
+             style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">proper heading of the references
+</tspan></tspan><tspan
+           x="50.748047"
+           y="100.11554"><tspan
+             style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">References
+</tspan></tspan><tspan
+           x="50.748047"
+           y="103.20371"><tspan
+             style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">Which is where we put in some stuff about our </tspan></tspan><tspan
+           x="50.748047"
+           y="106.29189"><tspan
+             style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">references and then how we actually did the analysis.  </tspan></tspan><tspan
+           x="50.748047"
+           y="109.38006"><tspan
+             style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">The Chi squared test that we did was equally </tspan></tspan><tspan
+           x="50.748047"
+           y="112.46823"><tspan
+             style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">impressive, with some values that were all over the </tspan></tspan><tspan
+           x="50.748047"
+           y="115.55641"><tspan
+             style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">place.  But mostly we were awesome as always.</tspan></tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.765;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2569)"
+       d="m 15.666075,32.620201 8.402622,13.587707"
+       id="path2361"
+       sodipodi:nodetypes="cc" />
+    <g
+       id="g3623-1"
+       transform="translate(0,43.63111)">
+      <g
+         id="g3596-7"
+         transform="translate(2.1166667,23.812499)">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect3473-8"
+           width="39.688492"
+           height="30.847071"
+           x="99.62516"
+           y="-8.5494823" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect839-8-7-2-5);opacity:0.45642;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;"
+           x="6.8128295"
+           y="117.91395"
+           id="text1092-3-9"
+           transform="translate(49.935144,-94.622386)"><tspan
+             x="50.748047"
+             y="87.762849"><tspan
+               style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">Our results show so many amazing things that the </tspan></tspan><tspan
+             x="50.748047"
+             y="90.851022"><tspan
+               style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">moose (Alces alcea) would never believe that our p </tspan></tspan><tspan
+             x="50.748047"
+             y="93.939195"><tspan
+               style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">value (p &lt; 0.05) was as small as it is, even with the </tspan></tspan><tspan
+             x="50.748047"
+             y="97.027368"><tspan
+               style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">proper heading of the references
+</tspan></tspan><tspan
+             x="50.748047"
+             y="100.11554"><tspan
+               style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">References
+</tspan></tspan><tspan
+             x="50.748047"
+             y="103.20371"><tspan
+               style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">Which is where we put in some stuff about our </tspan></tspan><tspan
+             x="50.748047"
+             y="106.29189"><tspan
+               style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">references and then how we actually did the analysis.  </tspan></tspan><tspan
+             x="50.748047"
+             y="109.38006"><tspan
+               style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">The Chi squared test that we did was equally </tspan></tspan><tspan
+             x="50.748047"
+             y="112.46823"><tspan
+               style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">impressive, with some values that were all over the </tspan></tspan><tspan
+             x="50.748047"
+             y="115.55641"><tspan
+               style="font-size:1.41111px;line-height:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">place.  But mostly we were awesome as always.</tspan></tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="104.10443"
+         y="33.217678"
+         id="text837-4-8-8-5-5-4"><tspan
+           sodipodi:role="line"
+           x="104.10443"
+           y="33.217678"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:0.264583"
+           id="tspan1004-8-2-0-1">Formatting</tspan></text>
+    </g>
+  </g>
+</svg>
