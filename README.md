@@ -28,4 +28,8 @@ We will be using several pieces of software in this workshop. These are widely u
 
 ### Check that everything works!
 
-I will put a document somewhere that will help you figure out if things are working.
+Once you've installed your programs, navigate to [this RMarkdown document](https://raw.githubusercontent.com/throughput-ec/ThesisIsCode/main/thesis/myThesis.Rmd) and right-click to _Save As_. Save it somewhere you'll find it, and then open that file in RStudio. Once it's open, click the **knit** button on the toolbar:
+
+![](images/knitbutton.png)
+
+If you're having problems, feel free to ask for help in the [Thesis Is Software Slack channel](https://join.slack.com/t/thesisissoftware/shared_invite/zt-ibvwfx2a-0cYNiU011T1ixgxZnvun5Q). This is a public channel. If you aren't a member yet, please feel free to join.
