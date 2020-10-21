@@ -6,9 +6,7 @@ output: html_document
 
 # Knitting your Thesis
 
-Open this `Rmd` file in RMarkdown. It should all be ready to go, to turn it into a cool `HTML` document. To do that, look at the RStudio toolbar and click the `knit` button:
-
-![](../images/knitbutton.png)
+Open this `Rmd` file in RMarkdown. It should all be ready to go, to turn it into a cool `HTML` document. To do that, look at the RStudio toolbar and click the `knit` button.
 
 You can also knit (or render) your RMarkdown documents using the command line. There are good reasons for doing this, and cool tricks you can try (see the Tips & Tricks later in the workshop). To do that, go to the folder that your RMarkdown document is in and type in the command:
 
