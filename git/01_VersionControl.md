@@ -65,15 +65,17 @@ Here are some things that can happen while you're working on code, or a paper:
 
 ## A (very) Brief Introduction to `git`
 
-As indicated above, `git` records changes to files. It does this in a **repository**. This is usually your project folder, along with a hidden folder (called `.git`) in that project folder. So you might have a folder that looks like this:
+As indicated above, `git` records changes to files. It does this in a **repository**. A repository is a folder (or set of nested folders) that are being tracked. This is usually your project folder, along with a hidden folder (called `.git`) in that project folder. So you might have a folder that looks like this:
 
 ![Image of a folder that is a tracked git repository](../images/gitRepositoryFolder.png)
 
 This was maybe a bad example, since there is already a folder in here called `git`, which contains this article, but you can see there's also a `.git` folder that contains 12 items. These items include a record of all the changes made in the repository so far, as well as some other utilities that can be associated with a `git` repository.
 
+In general, you want a repository to have one purpose. You could, if you were totally crazy, have a repository that tracked all your document folders, but this would be unwieldy. It's better to have a repository for each project.
+
 ### How `git` works:
 
-`git` started out as a commandline tool. The general workflow was that:
+`git` started out as a command-line tool. The general workflow was that:
 
 1. We would `git init` to initialize a repository. This would create the neccessary folder to track the project changes.
 2. Once changes had been made in a repository (you've added a file, made edits to an existing file) you would `git add` them to _stage_ those changes, in preparation for adding the changes to the repository.
