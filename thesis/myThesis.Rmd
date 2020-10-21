@@ -2,7 +2,6 @@
 title: My Thesis
 author: You
 output: html_document
-bibliography: bibliography/bibliography.bib
 ---
 
 # Knitting your Thesis
@@ -27,6 +26,6 @@ Most universities and departments make a Word or latex template available for th
 
 Pandoc (and by extension, RMarkdown) can support the use of a bibliography in [Bibtex format](http://www.bibtex.org/). These references can be rendered into a number of different formats using an XML-type file called the [Citation Style Language](https://citationstyles.org/), or CSL. These files define how the reference is rendered and referenced in text. You can see a full list of available formats (for a large number of journals) in the [CSL Github styles repository](https://github.com/citation-style-language/styles).
 
-If I wanted to cite a paper, for example, the winner of an IgNobel prize for making feces knives [@eren2019experimental], I could simply add an in text citation to my bibliography file.
+If I wanted to cite a paper, for example, the winner of an IgNobel prize for making feces knives `[@eren2019experimental]`, I could simply add an in text citation to my bibliography file.
 
 There's some great information about using RMarkdown citations & bibliographies on the RStudio
