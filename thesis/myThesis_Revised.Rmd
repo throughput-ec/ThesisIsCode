@@ -1,11 +1,19 @@
 ---
 title: My Thesis
 author: You
-output: html_document
+output: 
+  html_document:
 bibliography: bibliography/bibliography.bib
+abstract: >-
+  This is a sample thesis that we're using to showcase some practical
+  applications of integrated documents.
+keywords: 'thesis, science, stuff'
+linenumbers: true
 ---
 
-# Knitting your Thesis
+# Our Sample Thesis
+
+## Knitting your Thesis
 
 Open this `Rmd` file in RMarkdown. It should all be ready to go, to turn it into a cool `HTML` document. To do that, look at the RStudio toolbar and click the `knit` button.
 
@@ -16,6 +24,24 @@ Rscript -e "rmarkdown::render('filename.Rmd')"
 ```
 
 No need to try it here, but just wanted to mention it :)
+
+## Integrating Code
+
+When you're working on your thesis you're probably loading some data, and then doing some analysis. We're going to show a couple ways of doing it, but we're also going to look at how to integrate that code directly into your text.
+
+### Data Import
+
+We did some work looking at Github repositories earlier, and added information to a Google spreadsheet. I've downloaded the data into a CSV file in the `data/input` directory of this project.
+
+```{r}
+table <- read.csv('data/input/GitHubRepos.csv')
+```
+
+Once the table is read in by the code block above we can say some things about it, for example, I can let you know that there are `r nrow(table)` rows in the table. I wanted to know how many of the tables had `README` files. There are `r sum(table[,3] == 'yes', na.rm=TRUE)` README files, out of `r sum(table[,3] == '')` repositories sampled. **The fact that we sampled no repositories at all is pretty telling.**
+
+```{r}
+plot(factor(table[,3]))
+```
 
 # Templates
 
