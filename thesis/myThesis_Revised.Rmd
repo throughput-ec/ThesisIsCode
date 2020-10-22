@@ -55,7 +55,6 @@ That URL leads you to a help page of sorts. I just want to do a really simple qu
 
 ```{r}
 library(jsonlite)
-library(httr)
 climate <- jsonlite::fromJSON('https://geodeepdive.org/api/snippets?term=climut&clean&full_results')
 ```
 

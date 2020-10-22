@@ -26,6 +26,12 @@ We will be using several pieces of software in this workshop. These are widely u
 3. [**`git`**](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) is a widely used version control software package that keeps track of changes you make in any kind of file, across multiple projects. **NOTE**: Most installations only need the default settings.
 4. [**`pandoc`**](https://pandoc.org/installing.html) is a piece of software that helps users change document formats between Markdown, HTML, PDF, docx and others. Pandoc also supports embedded citations, graphics and other stuff that's cool.
 
+### Install R Packages:
+
+```
+install.packages(c('revealjs', 'assertthat', 'jsonlite'))
+```
+
 ### Check that everything works!
 
 Once you've installed your programs, navigate to [this RMarkdown document](https://raw.githubusercontent.com/throughput-ec/ThesisIsCode/main/thesis/myThesis.Rmd) and right-click to _Save As_. Save it somewhere you'll find it, and then open that file in RStudio. Once it's open, click the **knit** button on the toolbar:
