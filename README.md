@@ -34,6 +34,6 @@ Once you've installed your programs, navigate to [this RMarkdown document](https
 
 Successfully knitting the Rmd file to an HTML output will let us know that your installation of `R`, `RStudio` and `pandoc` are working.
 
-To test whether or not `git` is working, open up a terminal. Linux and MacOS users should open their Dock and type in `terminal`. Windows users can open up the Windows Menu (CTRL-R) and type in `cmd`. Once that's done, type `git --version`. You should get a result that gives you the current version of `git` that you're running.
+To test whether or not `git` is working, open up a terminal. Linux and MacOS users should open their Dock and type in `terminal`. Windows users can open up the Windows Menu (windows key-R) and type in `cmd`. Once that's done, type `git --version`. You should get a result that gives you the current version of `git` that you're running.
 
 If you're having problems, feel free to ask for help in the [Thesis Is Software Slack channel](https://join.slack.com/t/thesisissoftware/shared_invite/zt-ibvwfx2a-0cYNiU011T1ixgxZnvun5Q). This is a public channel. If you aren't a member yet, please feel free to join.
