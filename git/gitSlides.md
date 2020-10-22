@@ -138,3 +138,6 @@ simon@partyLaptop:~$ git init
 
 - Active work
 - Explore Github
+- Fill in a couple lines here: <http://bit.ly/githubrepos>
+
+# What Makes a Good Repository?
