@@ -78,3 +78,38 @@ output:
 # Then Knit!
 
 ## Let's all Gaze in Wonder
+
+- We can knit to PDF, HTML, DOCX (and other formats)
+- Options depend on header text (in part)
+- RMarkdown `knit` runs code, creates a raw Markdown file, converts to new format.
+
+## How Does it Look?
+
+- Are there errors we can fix?
+- We need to check our assumptions
+- Formalize them with `assertthat()`
+
+# Using Assertions
+
+## Using Assertions
+
+- We want to make sure our text follows from our analysis.
+
+> meaning less than 300 papers about climate. Shocking!
+
+- But is it?
+
+## Using Assertions
+
+```
+assertthat::assert_that(climate[[1]]$hits < 300, msg="The hits are greater than 300 now!")
+```
+
+- If the assertion fails then the code doesn't knit and you have an informative error message telling you why.
+
+# Summary
+
+## Summary
+
+- You've created a thesis chapter
+-
