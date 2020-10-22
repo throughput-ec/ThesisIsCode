@@ -141,3 +141,5 @@ simon@partyLaptop:~$ git init
 - Fill in a couple lines here: <http://bit.ly/githubrepos>
 
 # What Makes a Good Repository?
+
+- Active discussion
