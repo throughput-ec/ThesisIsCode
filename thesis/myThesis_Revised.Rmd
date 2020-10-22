@@ -1,8 +1,8 @@
 ---
 title: My Thesis
 author: You
-output: 
-  html_document:
+output:
+  html_document: null
 bibliography: bibliography/bibliography.bib
 abstract: >-
   This is a sample thesis that we're using to showcase some practical
@@ -42,6 +42,24 @@ Once the table is read in by the code block above we can say some things about i
 ```{r}
 plot(factor(table[,3]))
 ```
+
+### Dynamic Data
+
+Sometimes we're working with data that comes from the World Wide Web. The Internet is basically a series of tubes. Some research databases or online tools have packages that allow you to obtain data directly through in internet connection. [xDeepDive](http://geodeepdive.org) is a tool that has harvested full text from hundreds of thousands of journal publications. We can connect to it using a URL:
+
+```
+https://geodeepdive.org/api/
+```
+
+That URL leads you to a help page of sorts. I just want to do a really simple query here. How many papers talk about _climate_?
+
+```{r}
+library(jsonlite)
+library(httr)
+climate <- jsonlite::fromJSON('https://geodeepdive.org/api/snippets?term=climut&clean&full_results')
+```
+
+We can look at the result online. The only thing I want to point out is that there are only `r climate[[1]]$hits` results, meaning less than 300 papers about climate. Shocking!
 
 # Templates
 
