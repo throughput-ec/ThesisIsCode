@@ -1,3 +1,5 @@
+Hey, look at this awesome edit!  This is really going to help you out.
+
 # Your Thesis is Code
 
 Code is an increasingly important part of research. Whether R or MATLAB "snippets," integrated documents using Jupyter or RMarkdown, or more complicated workflows using research databases, instrumental measurements, and databases.
