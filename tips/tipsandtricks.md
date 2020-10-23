@@ -53,9 +53,11 @@ Continuous Integration is a tool that rebuilds your software (or thesis) over an
 
 One simple way of doing this yourself is to run your complete code each time you save it. That's a bit time consuming if we had a long script, or were knitting together an entire document.
 
-I have a script [here](https://gist.github.com/SimonGoring/6110c8539eeb79d310ddd07597b0b05e)
+I have a script [here](https://gist.github.com/SimonGoring/6110c8539eeb79d310ddd07597b0b05e) that works (on Linux computers) to render an RMarkdown document each time it is saved. That way I was able to just reload the webpage each time I saved the Rmd file. It was pretty cool :)
 
 ## How to do it?
+
+A much better way to do it is to use something like [GitHub Actions](https://github.com/features/actions). The Actions happen when you do things with your repositories. If you go to the `.github/workflows` folder of this repository you'll see a file called `main.yaml`. It tells GitHub to run a script each time someone pushes to this repository. Pretty cool!
 
 # Docker
 
