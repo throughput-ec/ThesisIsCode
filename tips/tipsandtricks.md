@@ -53,6 +53,8 @@ Continuous Integration is a tool that rebuilds your software (or thesis) over an
 
 One simple way of doing this yourself is to run your complete code each time you save it. That's a bit time consuming if we had a long script, or were knitting together an entire document.
 
+I have a script [here](https://gist.github.com/SimonGoring/6110c8539eeb79d310ddd07597b0b05e)
+
 ## How to do it?
 
 # Docker

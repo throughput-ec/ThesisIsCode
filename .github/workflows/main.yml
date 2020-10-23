@@ -1,5 +1,9 @@
 name: Render and Deploy RMarkdown Website
-'on': push
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 jobs:
   build:
     runs-on: ubuntu-18.04
@@ -12,7 +16,7 @@ jobs:
           Rscript -e "remotes::install_deps(dependencies = TRUE, repos = 'https://demo.rstudiopm.com/all/__linux__/bionic/latest')"
       - name: Render Site
         run: |-
-          Rscript -e "rmarkdown::render_site(encoding = 'UTF-8')"
+          Rscript -e "rmarkdown::render('thesis/myThesis_Revised.Rmd')"
           echo "::set-env name=DEPLOY_PATH::$(Rscript -e "cat(rmarkdown::site_config()[['output_dir']])")"
       - name: Deploy to GitHub Pages
         if: github.ref == 'refs/heads/master'
