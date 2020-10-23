@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 I think the best thing to do is to add a line here.
+=======
+Hey, look at this awesome edit!  This is really going to help you out.
+>>>>>>> 8dfd56477340d4347c2a45b64f22a0eb6b0581b1
 
 # Your Thesis is Code
 
