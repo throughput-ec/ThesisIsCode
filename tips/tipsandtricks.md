@@ -43,7 +43,7 @@ if (filePresent) {
 }
 ```
 
-If, for some reason, you want to re-run the chunk of code, then just delete the file.
+If, for some reason, you want to re-run the chunk of code, then just delete the `data/output/slowCode.RDS` file. Your code will run smoothly whether or not it's there. It'll just run faster with it there.
 
 # Continuous Integration
 
@@ -59,7 +59,11 @@ I have a script [here](https://gist.github.com/SimonGoring/6110c8539eeb79d310ddd
 
 A much better way to do it is to use something like [GitHub Actions](https://github.com/features/actions). The Actions happen when you do things with your repositories. If you go to the `.github/workflows` folder of this repository you'll see a file called `main.yaml`. It tells GitHub to run a script each time someone pushes to this repository. Pretty cool!
 
+The `main.yaml` file here, and the actions were modified from the great [`ghactions` package](https://github.com/maxheld83/ghactions). Depending on what your repository aims to do, and what you're expecting as a result (does it just need to run, like a `shiny` app, does it need to output something specific?) you can look into GitHub Actions further.
+
 # Docker
+
+SJG - Make sure you do something here before you play Mario Kart 8.
 
 # Secrets (shhh!)
 
@@ -91,4 +95,28 @@ There is a more extensive document about secrets in the documentation for the [`
 
 This is my favourite. A `lint`er is a program that uses a set of specified rules to test written software. This lets you make sure your code follows best-practices for the particular language. For example, a common Python linter (`pylint`) searches code to make sure that indentation uses four spaces (or one tab).
 
-R has a linting package that integrates with RStudio ([`lintr`](https://cran.r-project.org/web/packages/lintr/index.html)). Editors like Atom, Sublime Text, and Visual Studio Code have packages that can be installed to help with the linting. In addition, you can look for tools like `prettier.io`, which plug into editors to apply the linting rules.
+R has a linting package that integrates with RStudio ([`lintr`](https://cran.r-project.org/web/packages/lintr/index.html)). Editors like Atom, Sublime Text, and Visual Studio Code have packages that can be installed to help with the linting. In addition, you can look for tools like [`prettier.io`](), which plug into editors to apply the linting rules.
+
+# Regular Expressions
+
+I really like regular expressions. They're super cool. If you're doing a lot of work with text they can be really helpful, especially during data cleaning. For example, let's say you're working with a table of places geoscientists want to move. When you go through the document you notice that people have written things fairly inconsistently, but you want to standardize things. You could go through by hand and edit every instance of `CANADA`, `cAnADA`, `canada`, or `cannada` to `Canada`, or you could make the assumption that most people get the first two and last two letters right, and have a few letters in between. If you played around a bit, you might write something like this `(?i)Ca.{2,4}da\s` using regex.
+
+Absolutely impenetrable, but super powerful. Start with simple match terms like `.` and `*` and work your way up. Use sites like [http://regex101.com](), read the documentation for [R packages like `stringr`](https://stringr.tidyverse.org/articles/regular-expressions.html) and [Python's `re` package](https://docs.python.org/3/library/re.html), and eventually you'll be a real RegEx superstar!
+
+# Make Mistakes
+
+Seriously. I've made so many mistakes, run so much broken code, but slowly, slowly, I've figured it out. Part of what helps is seeing the same mistakes over and over again, and eventually getting a feel for what might be wrong based on the error message.
+
+```
+plotOut <- ggplot(data) +
+  geom_point(aes(x = whatever, y = whatever))
+  geom_line()
+
+> Error in ggplot(data) : could not find function "ggplot"
+```
+
+That? Oh, I forgot to load the `ggplot` package. Do it all the time. . . If I fixed that I'd get a second error because there's a missing plus sign after the `geom_point` line, I get that a lot too.
+
+# Share Success and Failure
+
+You're awesome! You're going to do super cool stuff. Let people know. If they're not excited about what you've done they're clearly squares. If you're having problems, ask. Share your code, make sure someone else can run it, and ask around. People who do a lot of coding usually like it, and they're happy to help other folks out. If they don't, you know what they are? `pch = 0`.
