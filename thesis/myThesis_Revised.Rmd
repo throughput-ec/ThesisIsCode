@@ -35,6 +35,7 @@ We did some work looking at Github repositories earlier, and added information t
 
 ```{r}
 table <- read.csv('data/input/GitHubRepos.csv')
+table232322aaa
 ```
 
 Once the table is read in by the code block above we can say some things about it, for example, I can let you know that there are `r nrow(table)` rows in the table. I wanted to know how many of the tables had `README` files. There are `r sum(table[,3] == 'yes', na.rm=TRUE)` README files, out of `r sum(table[,3] == '')` repositories sampled. **The fact that we sampled no repositories at all is pretty telling.**
