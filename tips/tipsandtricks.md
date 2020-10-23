@@ -6,6 +6,45 @@ Here are some tips & tricks I've learned along the way to help me get things don
 
 ## Working with Slow Functions or Processes
 
+Slow functions and processes can really inhibit knitting. If you're working with something that takes an hour to run, that means it'll take an hour to knit your file. Yikes!
+
+One solution is to do something like this
+
+### Our Slow Example:
+
+```r
+slowmedown <- function(x) {
+  # Our slow function just sleeps for 12 seconds.
+  Sys.sleep(30)
+  return(x + 12)
+}
+
+someCode <- 13
+testingResult <- slowmedown(someCode)
+```
+
+So, we have a random function that returns some value plus 12\. Lets pretend that's meaningful, and that we'd expect to use it later. This is where we can use our `data/output` folder to our advantage. R can save R objects (`RDS`). What we'll do is save the output to an `RDS` file once the process is complete. That way, when we next compile, we'll check to see if the file is there. If it is, then just load it. If not, then run the process:
+
+```r
+slowmedown <- function(x) {
+  # Our slow function just sleeps for 12 seconds.
+  Sys.sleep(30)
+  return(x + 12)
+}
+
+someCode <- 13
+
+filePresent <- file.exists('data/output/slowCode.RDS')
+
+if (filePresent) {
+  testingResult <- readRDS('data/output/slowCode.RDS')
+} else {
+  testingResult <- slowmedown(someCode)
+}
+```
+
+If, for some reason, you want to re-run the chunk of code, then just delete the file.
+
 # Continuous Integration
 
 ## What is it?
