@@ -29,8 +29,7 @@ jobs:
           r-version: ${{ matrix.r-version }}
       - name: Install dependencies
         run: |
-          install.packages(c("remotes", "rcmdcheck", "rmarkdown", "jsonlite"))
-          remotes::install_deps(dependencies = TRUE)
+          install.packages(c("rmarkdown", "jsonlite"))
         shell: Rscript {0}
       - name: Check
         run: rmarkdown::render('thesis/myThesis_Revised.Rmd')
