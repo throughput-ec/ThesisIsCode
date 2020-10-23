@@ -1,6 +1,6 @@
 ---
 title: My Thesis
-author: You
+author: Simon Goring
 output:
   html_document: null
 bibliography: bibliography/bibliography.bib
