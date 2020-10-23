@@ -49,6 +49,10 @@ If, for some reason, you want to re-run the chunk of code, then just delete the 
 
 ## What is it?
 
+Continuous Integration is a tool that rebuilds your software (or thesis) over and over again, each time you make a change. We do this to make sure things work the way we expect. It's possible that as we're working we have accidentally created variables that we used for debugging (maybe I was testing the code above and wanted to see what would happen if I set `someCode` to `14` and forgot to set it back again). Another instance might happen if we've gone back and made a change, but haven't actually run the changed code. These might cause our code to run in ways it might not if we were to share it and have someone else run it.
+
+One simple way of doing this yourself is to run your complete code each time you save it. That's a bit time consuming if we had a long script, or were knitting together an entire document.
+
 ## How to do it?
 
 # Docker
