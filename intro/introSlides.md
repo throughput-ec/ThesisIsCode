@@ -7,6 +7,7 @@ output:
     theme: blood
     css: custom.css
     self_contained: false
+    transition: fade
     reveal_options:
       slideNumber: true
       previewLinks: true

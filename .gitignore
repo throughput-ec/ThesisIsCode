@@ -7,3 +7,5 @@ ThesisIsCode.Rproj
 thesis/yourThesisMarkdown_files/
 .Rbuildignore
 secrets.csv
+
+intro/welcome_files/
