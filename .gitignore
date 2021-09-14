@@ -1,14 +1,9 @@
-
 thesis/myThesis.html
-
 intro/introSlides_files/
-
 git/gitSlides_files/
-
 gsaDocs/
 .Rproj.user
-
 ThesisIsCode.Rproj
-
 thesis/yourThesisMarkdown_files/
 .Rbuildignore
+secrets.csv
