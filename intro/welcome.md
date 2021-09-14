@@ -19,6 +19,10 @@ output:
 
 An NSF Funded Research project [NSF-1928366](https://nsf.gov/awardsearch/showAward?AWD_ID=1928366)
 
+<center>
+  <img src=../images/EarthCube-Newblue.webp alt="EarthCube logo">
+</center>
+
 ### Goals
 
 - Reduce "time-to-science" for researchers
@@ -30,8 +34,8 @@ An NSF Funded Research project [NSF-1928366](https://nsf.gov/awardsearch/showAwa
 ## Main Components
 
 - Education & Outreach (this workshop)
-- Throughput Database
-- Earth Science Cookbook [throughputdb.com](https://throughputdb.com)
+- Throughput Database ([database snapshots](https://figshare.com/collections/Throughput_Database_Snapshots/5075912))
+- Earth Science Cookbook ([throughputdb.com](https://throughputdb.com))
 
 --------------------------------------------------------------------------------
 
@@ -40,6 +44,10 @@ An NSF Funded Research project [NSF-1928366](https://nsf.gov/awardsearch/showAwa
 - We are good at doing research
 - We are not often good at documenting it [(Lee 2018)](https://doi.org/10.1371/journal.pcbi.1006561)
 - We are finding new uses for old research
+
+<center>
+  <img src="../images/noun_Scientist_2723428.svg" width="30%" alt="A line drawing of a woman who is a scientist">
+</center>
 
 --------------------------------------------------------------------------------
 
