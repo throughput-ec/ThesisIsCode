@@ -4,7 +4,11 @@ author: You
 output: html_document
 ---
 
-# Knitting your Thesis
+## The Title and YAML Header
+
+The top of the RMarkdown document contains *metadata* about the document itself.  The `yaml` header tells RStudio (and [Pandoc](https://pandoc.org/)) how to actually compile the document, and what kinds of information it may need.  There are different kinds of output, including `html_document`, `html_notebook`, `word_document`, and others.  You can see a list of options on the [RStudio RMarkdown page](https://rmarkdown.rstudio.com/lesson-9.html).  
+
+## Knitting your Thesis
 
 Open this `Rmd` file in RMarkdown. It should all be ready to go, to turn it into a cool `HTML` document. To do that, look at the RStudio toolbar and click the `knit` button.
 
@@ -16,11 +20,11 @@ Rscript -e "rmarkdown::render('filename.Rmd')"
 
 No need to try it here, but just wanted to mention it :)
 
-# Templates
+## Document Templates
 
 Most universities and departments make a Word or latex template available for theses. For example, the [template in the `templates` folder](templates/thesistemplate.docx) is provided by [Simon Fraser University](https://www.lib.sfu.ca/help/publish/thesis/templates).
 
-# Bibliography
+## Bibliography
 
 Pandoc (and by extension, RMarkdown) can support the use of a bibliography in [Bibtex format](http://www.bibtex.org/). These references can be rendered into a number of different formats using an XML-type file called the [Citation Style Language](https://citationstyles.org/), or CSL. These files define how the reference is rendered and referenced in text. You can see a full list of available formats (for a large number of journals) in the [CSL Github styles repository](https://github.com/citation-style-language/styles).
 

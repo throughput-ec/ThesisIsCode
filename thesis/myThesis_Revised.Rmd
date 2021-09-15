@@ -1,15 +1,20 @@
 ---
-title: My Thesis
-author: Simon Goring
+title: "My Thesis"
+author: "Simon Goring"
 output:
   html_document: null
+  word_document:
+    reference_docx: templates/thesistemplate.docx
 bibliography: bibliography/bibliography.bib
-abstract: >-
-  This is a sample thesis that we're using to showcase some practical
-  applications of integrated documents.
-keywords: 'thesis, science, stuff'
-linenumbers: true
+abstract: This is a sample thesis that we're using to showcase some practical applications
+  of integrated documents.
+keywords: thesis, science, stuff
+linenumbers: yes
 ---
+
+```{r}
+version <- 0.2
+```
 
 # Our Sample Thesis
 
@@ -31,16 +36,40 @@ When you're working on your thesis you're probably loading some data, and then d
 
 ### Data Import
 
-We did some work looking at Github repositories earlier, and added information to a Google spreadsheet. I've downloaded the data into a CSV file in the `data/input` directory of this project.
+Indigo et al. [-@indigo2018not] talk about that. This is cool [@indigo2018not;@dilkes1998octopus].
 
-```{r}
+We did some work looking at Github repositories earlier, and added information to a Google spreadsheet just like Indigo et al., [-@indigo2018not]. I've downloaded the data into a CSV file in the `data/input` directory of this project.
+
+```{r readData}
+library(assertthat)
 table <- read.csv('data/input/GitHubRepos.csv')
+
+slowFunction <- function(x) {
+  Sys.sleep(5)
+  return(x + 3)
+}
+
+filename <- paste0('data/output/slowResult_', version, '.RDS')
+
+if (file.exists(filename)) {
+  slowResult <- readRDS(filename)
+} else {
+  slowResult <- slowFunction(5) 
+  saveRDS(slowResult, file = filename)
+}
+
 ```
 
-Once the table is read in by the code block above we can say some things about it, for example, I can let you know that there are `r nrow(table)` rows in the table. I wanted to know how many of the tables had `README` files. There are `r sum(table[,3] == 'yes', na.rm=TRUE)` README files, out of `r sum(table[,3] == '')` repositories sampled. **The fact that we sampled no repositories at all is pretty telling.**
+`r slowResult`
+
+Once the table is read in by the code block above we can say some things about it, for example, I can let you know that there are `r nrow(table)` rows in the table. 
+
+There are three stratigraphic sections that we studied and the thickest one was the Something Formation.
+
+I wanted to know how many of the tables had `README` files. There are `r sum(table[,3] == 'yes', na.rm=TRUE)` README files, out of `r sum(table[,3] == '')` repositories sampled.
 
 ```{r}
-plot(factor(table[,3]))
+plot(factor(tolower(table[, 3])))
 ```
 
 ### Dynamic Data
@@ -55,7 +84,8 @@ That URL leads you to a help page of sorts. I just want to do a really simple qu
 
 ```{r}
 library(jsonlite)
-climate <- jsonlite::fromJSON('https://geodeepdive.org/api/snippets?term=climut&clean&full_results')
+climate <- jsonlite::fromJSON('https://geodeepdive.org/api/snippets?term=climate&clean&full_results')
+
 ```
 
 We can look at the result online. The only thing I want to point out is that there are only `r climate[[1]]$hits` results, meaning less than 300 papers about climate. Shocking!
