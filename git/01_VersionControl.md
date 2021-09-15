@@ -7,7 +7,7 @@ keywords:
 author:
   - Socorro Dominguez
   - Simon Goring
-date: 10/22/2020
+date: 22/10/2020
 output: pdf_document
 lang: en-CA
 dir: ltr
@@ -32,14 +32,14 @@ Now this is line two
 
 Now, I make (and save) a change:
 
-```
+```bash
 Here is line one
 Here is line two
 ```
 
 To `git`, this change looks like:
 
-```
+```bash
 Here is line one
 - Now this is line two
 + Here is line two
@@ -73,7 +73,7 @@ This was maybe a bad example, since there is already a folder in here called `gi
 
 In general, you want a repository to have one purpose. You could, if you were totally crazy, have a repository that tracked all your document folders, but this would be unwieldy. It's better to have a repository for each project.
 
-### How `git` works:
+### How `git` works
 
 `git` started out as a command-line tool. The general workflow was that:
 
@@ -102,11 +102,11 @@ We have said that GitHub is a repository hosting service. But what is even a rep
 
 When making a repository, there are some things that you should keep in mind:
 
-- Make your repository a well documented one. This means comments throughout, readable code and a brief summary at the top of each file that answers who wrote it, when it was written and what it does.
+- Make sure your repository is well documented. This means comments throughout, readable code and a brief summary at the top of files to answer who wrote it, when it was written and what it does.
 
-- Use a README.md file at the root of your repository where you document the basics of the project you are working on. Use this file to also explain what the file structure looks like and what each file contains.
+- Use a `README.md` file at the root of your repository where you document the basics of the project you are working on. Use this file to also explain what the file structure looks like and what files or directories contain.
 
-- If you are going to be collaborating with others, write a Code of Conduct. A code of conduct defines standards for how to engage in a community. It signals an inclusive environment that respects all contributions. It also outlines procedures for addressing problems between members of your project's community.
+- If you are going to be collaborating with others, write a [Code of Conduct](). A code of conduct defines standards for how to engage in a community. It signals an inclusive environment that respects all contributions. It also outlines procedures for addressing problems between members of your project's community.
 
 - Public repositories on GitHub are often used to share open source software. For your repository to truly be open source, license it so that others can enjoy it. MIT License is one of the most common used. It is a simple permissive license with conditions only requiring preservation of copyright and license notices.
 
