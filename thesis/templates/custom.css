@@ -1,0 +1,9 @@
+.reveal .slide {
+  text-align: left;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+
+.reveal .slide img {
+  align: center;
+}

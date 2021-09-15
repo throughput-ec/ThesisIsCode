@@ -61,7 +61,7 @@ Please note that we will be following both the Code of Conduct for this reposito
 
 | Time (PST) | Talks |
 | ---------- | ----- |
-| 10:00am       | Land acknowledgment, Introduce yourself, Introduce Throughput [10 mins], Why build your thesis as software? [20 minutes] |
+| 10:00am       | Land acknowledgment, Introduce yourself, [Introduce Throughput](intro/welcome.html) [10 mins], Why build your thesis as software? ([Why Software?](intro/whySoftware.html)) [20 mins] |
 | 10:45am |  An introduction to GitHub; What is version control?; What is a repository?; What are important pieces in a repository (Introducing the Throughput Template) |
 | 11:45am | Short Nature break |
 | 12:00am | Git workflows & gitignore; Fork, clone, commit & push (the course repo) [active]; Forking; Cloning; Get to command line (cmd, or terminal, or with RStudio); Clone |

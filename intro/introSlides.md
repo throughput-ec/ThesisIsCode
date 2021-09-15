@@ -4,9 +4,9 @@ author: Simon Goring
 date: 23/10/2020
 output:
   'revealjs::revealjs_presentation':
-    theme: blood
+    theme: simple
     css: custom.css
-    self_contained: false
+    self_contained: true
     transition: fade
     reveal_options:
       slideNumber: true
@@ -15,36 +15,46 @@ output:
       - notes
 ---
 
-# What is a Thesis?
-
 ## What is a Thesis?
+
+--------------------------------------------------------------------------------
+
+## A Thesis is
 
 ideas + data + text + formatting
 
 ![](../images/ideapipeline.svg)
 
-## What is a Thesis?
+--------------------------------------------------------------------------------
+
+## A Thesis is Ideas
 
 **IDEAS** + data + text + formatting
 
 - We have expectations and hypotheses that we aim to test
 - Our project design is based on assumptions
 
-## What is a Thesis?
+--------------------------------------------------------------------------------
+
+## A Thesis is Data
 
 ideas + **DATA** + text + formatting
 
 - Data is the product of experimental design and has constraints
 - Data collection and processing is part of a workflow
 
-## What is a Thesis?
+--------------------------------------------------------------------------------
+
+## A Thesis is Text
 
 ideas + data + **TEXT** + formatting
 
 - Text depends on results from analysis
 - Text is structured, ordered and order has meaning
 
-## What is a Thesis?
+--------------------------------------------------------------------------------
+
+## A Thesis is Formatting
 
 ideas + data + text + **FORMATTING**
 
@@ -52,9 +62,15 @@ ideas + data + text + **FORMATTING**
 - Formatting makes it all look pretty
 - Your thesis office will not accept a thesis with the wrong formatting
 
-![](../images/thick-book.jpg){ width=30% }
+<center>
+  <img src="../images/thick-book.jpg" width=30% alt="A ridiculously thick book">
+</center>
 
-# Is A Thesis Like Software?
+--------------------------------------------------------------------------------
+
+## Is A Thesis Like Software?
+
+--------------------------------------------------------------------------------
 
 ## Software Is
 
@@ -63,17 +79,24 @@ ideas + data + text + **FORMATTING**
 - text (code)
 - formatting (styling)
 
-![](../images/Floppy_disk_2009_G1.jpg){ width=70% }
+<center>
+<img src="../images/Floppy_disk_2009_G1.jpg" width=70% alt="Very old floppy disks for computers">
+</center>
 
-# What can we learn from Software Development
+--------------------------------------------------------------------------------
+
+## What can we learn from Software Development
+
+--------------------------------------------------------------------------------
 
 ## What can we learn from Software Development
 
 - Working on _Features_
 - Testing _Assumptions_
 - Building _Workflows_
+--------------------------------------------------------------------------------
 
-## What can we learn from Software Development
+## Software Development: FEATURES
 
 - Working on _Features_
 
@@ -82,7 +105,9 @@ ideas + data + text + **FORMATTING**
   - A unit has expected inputs & outputs
   - A unit can have versions
 
-## What can we learn from Software Development
+--------------------------------------------------------------------------------
+
+## Software Development: ASSUMPTIONS
 
 - Testing _Assumptions_
 
@@ -90,7 +115,9 @@ ideas + data + text + **FORMATTING**
   - We write things about our results (p < 0.5)
   - Results and data might change as _features_ change
 
-## What can we learn from Software Development
+--------------------------------------------------------------------------------
+
+## Software Development: WORKFLOWS
 
 - Building _Workflows_
 
@@ -99,13 +126,19 @@ ideas + data + text + **FORMATTING**
   - Writing units that "just work" makes changing them easier
   - Writing units that "just work" makes fixing them easier
 
-# Your Thesis is Software
+--------------------------------------------------------------------------------
+
+## Your Thesis is Software
+
+--------------------------------------------------------------------------------
 
 ## This Workshop
 
 - An introduction to software tools & concepts
 - A resource & community for your ongoing work
 - A tool to help you re-think your work going forward
+
+--------------------------------------------------------------------------------
 
 ## Key Learning Points
 
