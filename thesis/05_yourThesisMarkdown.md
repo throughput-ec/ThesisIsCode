@@ -1,11 +1,11 @@
 ---
 title: Your RMarkdown Thesis
 author: Simon Goring
-date: 23/10/2020
+date: 15/09/2021
 output:
   'revealjs::revealjs_presentation':
     theme: simple
-    css: custom.css
+    css: ../templates/custom.css
     self_contained: false
     transition: fade
     reveal_options:
@@ -70,9 +70,7 @@ output:
 
   - Figures (raw, finished); Code; Data (input/output); Save Google Sheet to file.
   
-<center>
-  <img src="../images/RPROJECT_2000dpi.png" width=30% alt="Project setup">
-</center>
+<img src="../images/RPROJECT_2000dpi.png" width=30% alt="Project setup">
 
 [image ref](https://martinctc.github.io/blog/rstudio-projects-and-working-directories-a-beginner's-guide/)
 

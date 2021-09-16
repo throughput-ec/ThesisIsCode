@@ -7,13 +7,13 @@ keywords:
 author:
   - Socorro Dominguez
   - Simon Goring
-date: 22/10/2020
+date: 15/09/2021
 output: pdf_document
 lang: en-CA
 dir: ltr
 ---
 
-# What is Version Control?
+## What is Version Control
 
 Version Control refers to a class of systems responsible for monitoring changes to objects on your computer. These can be documents, software or images. Working with Version Control means that you can recover files or re-use specific file changes if you accidentally destroy a file or lose it.
 
@@ -21,11 +21,11 @@ At the heart of most modern version control is `git`. `git` is the "language" we
 
 `git` treats each line in a document as an individual element. When any line is changed, `git` keeps track of the file, the line or lines that were changed, and what the new version of that file looks like. In general this is represented as _insertions_ and _deletions_, but in reality, `git` stores snapshots of your files whenever they change, and basically functions as a filesystem of its own.
 
-## An Example of Changes
+### An Example of Changes
 
 I've written a really basic text document:
 
-```
+```bash
 Here is line one
 Now this is line two
 ```
@@ -49,7 +49,7 @@ Here is line one
 
 So why use `git`?
 
-## Why use Version Control?
+### Why use Version Control?
 
 ![*“Piled Higher and Deeper” by Jorge Cham, http://www.phdcomics.com*](img/01_phd_vc_comic.png)
 
@@ -94,11 +94,11 @@ Beyond managing and keeping versions of documents under control, there are other
 - Github can be used to host websites/blogs
 - Github has a fantastic search functionality
 
-# What is a repository?
+### What is a Repository
 
 We have said that GitHub is a repository hosting service. But what is even a repository? A repository or a "repo" is a directory or storage space where your projects can live. It can be local to a folder on your computer, or it can be a storage space on GitHub. You can keep code files, text files, image files inside a repository.
 
-## What are important pieces in a repository (Introducing the Template keywords etcetera)
+## Important Pieces of a Repository
 
 When making a repository, there are some things that you should keep in mind:
 
@@ -106,7 +106,7 @@ When making a repository, there are some things that you should keep in mind:
 
 - Use a `README.md` file at the root of your repository where you document the basics of the project you are working on. Use this file to also explain what the file structure looks like and what files or directories contain.
 
-- If you are going to be collaborating with others, write a [Code of Conduct](). A code of conduct defines standards for how to engage in a community. It signals an inclusive environment that respects all contributions. It also outlines procedures for addressing problems between members of your project's community.
+- If you are going to be collaborating with others, write a [Code of Conduct](../CODE_OF_CONDUCT.md). A code of conduct defines standards for how to engage in a community. It signals an inclusive environment that respects all contributions. It also outlines procedures for addressing problems between members of your project's community.
 
 - Public repositories on GitHub are often used to share open source software. For your repository to truly be open source, license it so that others can enjoy it. MIT License is one of the most common used. It is a simple permissive license with conditions only requiring preservation of copyright and license notices.
 
@@ -135,7 +135,7 @@ When making a repository, there are some things that you should keep in mind:
     - fig02_histogram-talk-attendance.png
     - 1986-01-28_raw-data-from-challenger-o-rings.txt
 
-- Commit to `git`every time you work on the project. When you commit, make your commit messages meaningful!
+- Commit to `git` every time you work on the project. When you commit, make your commit messages meaningful!
 
 - When creating a repository, you have to think about your future users. You should be able to walk away from the project and come back to it a year later and resume work fairly quickly. Other people should be able to figure out what you did and how to continue your work.
 

@@ -73,6 +73,7 @@ Simon Goring (when I'm feeling optimistic)
 - [GitHub Desktop](https://desktop.github.com/) (free, MIT)
 - `git` GUI (comes with `git`)
 - The [`git` list of platform specific tools](https://git-scm.com/downloads/guis)
+- RStudio, Visual Studio Code functions.
 
 -----------------------------------------------------
 
@@ -108,9 +109,14 @@ simon@partyLaptop:~$ git init
 
 ## `git` Workflow
 
+- Initialize (set up the infrastructure)
+- Edit
+- Stage the changes before we commit the changes
+- Commit the changes to `git`
+
 -----------------------------------------------------
 
-## Local `git` Workflow
+### Local `git` Workflow
 
 - `git init` - Initialize a repository
 - Make changes (atomic changes)
@@ -130,7 +136,7 @@ simon@partyLaptop:~$ git init
 
 -----------------------------------------------------
 
-## Public Code Repositories
+### Public Code Repositories
 
 - Support greater collaboration
 - Acts as cloud backup
@@ -173,14 +179,14 @@ simon@partyLaptop:~$ git init
 
 -----------------------------------------------------
 
-### Fork and Clone
+### Fork and Clone (Active)
 
 - Create new Project in RStudio "From Version Control"
 - All files copied locally. Fun times!!
 
 -----------------------------------------------------
 
-## What Makes a Good Repository?
+## What Makes a Good Repository
 
 - Active work
 - Explore Github
@@ -188,6 +194,6 @@ simon@partyLaptop:~$ git init
 
 -----------------------------------------------------
 
-## What Makes a Good Repository?
+## What Makes a Good Repository (Discussion)
 
 - Active discussion
