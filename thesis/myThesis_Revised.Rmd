@@ -1,5 +1,5 @@
 ---
-title: "My Thesis"
+title: "My Sample Thesis"
 author: "Simon Goring"
 output:
   html_document: null
@@ -15,8 +15,6 @@ linenumbers: yes
 ```{r}
 version <- 0.2
 ```
-
-# Our Sample Thesis
 
 ## Knitting your Thesis
 
@@ -43,7 +41,6 @@ We did some work looking at Github repositories earlier, and added information t
 ```{r readData}
 library(assertthat)
 table <- read.csv('data/input/GitHubRepos.csv')
-table232322aaa
 ```
 
 `r slowResult`
@@ -76,11 +73,11 @@ climate <- jsonlite::fromJSON('https://geodeepdive.org/api/snippets?term=climate
 
 We can look at the result online. The only thing I want to point out is that there are only `r climate[[1]]$hits` results, meaning less than 300 papers about climate. Shocking!
 
-# Templates
+## Templates
 
 Most universities and departments make a Word or latex template available for theses. For example, the [template in the `templates` folder](templates/thesistemplate.docx) is provided by [Simon Fraser University](https://www.lib.sfu.ca/help/publish/thesis/templates).
 
-# Bibliography
+## Bibliography
 
 Pandoc (and by extension, RMarkdown) can support the use of a bibliography in [Bibtex format](http://www.bibtex.org/). These references can be rendered into a number of different formats using an XML-type file called the [Citation Style Language](https://citationstyles.org/), or CSL. These files define how the reference is rendered and referenced in text. You can see a full list of available formats (for a large number of journals) in the [CSL Github styles repository](https://github.com/citation-style-language/styles).
 
@@ -88,4 +85,4 @@ If I wanted to cite a paper, for example, the winner of an IgNobel prize for mak
 
 There's some great information about [using RMarkdown citations & bibliographies](https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html) on the RStudio website.
 
-# References
+## References
