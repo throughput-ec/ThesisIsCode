@@ -5,7 +5,7 @@
     - [Set up online accounts](#set-up-online-accounts)
     - [Install Software](#install-software)
     - [Install R Packages:](#install-r-packages)
-    - [Check that everything works!](#check-that-everything-works)
+    - [Check that everything works](#check-that-everything-works)
   - [During The Workshop](#during-the-workshop)
     - [Presentation Order](#presentation-order)
 
@@ -37,11 +37,13 @@ We will be using several pieces of software in this workshop. These are widely u
 
 ### Install R Packages:
 
-```
+Open up RStudio and, in the console, enter the following:
+
+```R
 install.packages(c('revealjs', 'assertthat', 'jsonlite'))
 ```
 
-### Check that everything works!
+### Check that everything works
 
 Once you've installed your programs, navigate to [this RMarkdown document](https://raw.githubusercontent.com/throughput-ec/ThesisIsCode/main/thesis/myThesis.Rmd) and right-click to _Save As_. Save it somewhere you'll find it, and then open that file in RStudio. Once it's open, click the **knit** button on the toolbar:
 
@@ -62,13 +64,15 @@ Please note that we will be following both the Code of Conduct for this reposito
 | Time (PST) | Talks |
 | ---------- | ----- |
 | 10:00am       | Land acknowledgment, Introduce yourself, [Introduce Throughput](intro/welcome.html) [10 mins], Why build your thesis as software? ([Why Software?](intro/whySoftware.html)) [20 mins] |
-| 10:45am |  An introduction to GitHub; What is version control?; What is a repository?; What are important pieces in a repository (Introducing the Throughput Template) |
-| 11:45am | Short Nature break |
-| 12:00am | Git workflows & gitignore; Fork, clone, commit & push (the course repo) [active]; Forking; Cloning; Get to command line (cmd, or terminal, or with RStudio); Clone |
-| 12:15am | Active work in breakout rooms Use the github search (some terms already chosen, R libraries) -  http://bit.ly/githubrepos; Readme? Description? Keywords?; Reflection - What makes a code repository more or less valuable?  What do you want to focus on when you make yours?; Edit with RStudio (Notes document, to be the “thesis” later); Commit & push |
-| 12:45am | CONFLICTS (point to tutorials); “You are now awesome!” pre-introduction to the afternoon. Reminder of “Why have we done this for your thesis”. (FinalFinalFinal file) |
+| 10:45am |  An introduction to GitHub [Slides](git/04_gitSlides.md) |
+| 11:45am | [Short Nature break](https://youtu.be/Hm3JodBR-vs) |
+| 12:00am | Git workflows & gitignore [git/VersionControl.md]() |
+| 12:15am | Active work  -  http://bit.ly/githubrepos |
+| 12:45am | Summarize & Questions |
 | 13:00am | Lunch-ish Break |
-| 13:30am | Reiterate earlier; Why is this going to work? [A template document in the course repo]; A thesis combines data (tables), figures, text, references, and numerical analysis. And collaborators (at least advisor) [active, knit to HTML]; GeoDeepDive (or ELC) - papers that reference something dumb. (number of papers using climatte [sic]); So changes in any one can affect the other [active, knit to HTML]; GeoDeepDive - papers that reference something smart (fix the spelling mistake); Some toy examples (A value changes from “none” to some, or a p value changes from significant to non-significant). -- Maybe use APIs? (above); `assertthat()` |
+| 13:30am | Moving to Markdown ([Your Thesis is Code](thesis/05_yourThesisMarkdown.md)) |
 | 2:00pm | Break |
-| 2:30pm | Tips & Tricks; saving data & versions in long processes; Saving figures to SVG file & putting them in the doc; RMarkdown templates & options (table of contents &cetera); Word templates for RMarkdown - Thesis templates (find one); Using dynamic elements in HTML vs Static elements for word/PDF; Environment Variables (and secret passwords) - gitignore; Flags for assertions (assertthat); Continuous Development; Docker &cetera; Crediting code & “its good enough” - You are awesome! |
+| 2:30pm | More Thesis Work |
+| 3:00pm | Short Break |
+| 3:15 |  |
 | 4:00pm | End of Workshop, thanks everyone! |
