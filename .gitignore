@@ -11,3 +11,5 @@ secrets.csv
 intro/welcome_files/
 
 .Rhistory
+0*_files/
+*.html
