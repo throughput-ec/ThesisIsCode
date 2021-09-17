@@ -6,7 +6,7 @@ output:
   'revealjs::revealjs_presentation':
     theme: simple
     css: custom.css
-    self_contained: true
+    self_contained: false
     transition: fade
     reveal_options:
       slideNumber: true
