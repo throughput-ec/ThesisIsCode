@@ -85,7 +85,7 @@ Please note that we will be following both the Code of Conduct for this reposito
 | **1:00pm** | **Lunch-ish Break** |
 | 1:30pm | Moving to Markdown ([Your Thesis is Code](thesis/04_yourThesisMarkdown.md)) |
 | **3:00pm** | **[Another Short Nature Break](https://youtu.be/a_C18uAZHdo)** |
-| 3:05pm |  Tips & Tricks ([Tips Document](tips/06_tipsandtricks.md)) |
+| 3:05pm |  Tips & Tricks ([Tips Document](tips/05_tipsandtricks.md)) |
 | 3:45pm | Questions & Stuff |
 | **4:00pm** | **End of Workshop, thanks everyone!** |
 
