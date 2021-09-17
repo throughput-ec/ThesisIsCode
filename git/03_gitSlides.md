@@ -81,6 +81,31 @@ Simon Goring (when I'm feeling optimistic)
 
 -----------------------------------------------------
 
+## `git` Workflow
+
+- Initialize (set up the infrastructure)
+- Edit your code/document &cetera
+- *Stage* the changes before we *commit* the changes
+- Commit the changes to `git`
+
+-----------------------------------------------------
+
+<center>
+<img src="../images/gitStaging.png" width=70% alt="A diagram of commits & stages for git.">
+</center>
+Source: <a href=https://dev.to/sublimegeek/git-staging-area-explained-like-im-five-1anh>sublimegeek</a>
+
+-----------------------------------------------------
+
+### Local `git` Workflow
+
+- `git init` - Initialize a repository
+- Make changes
+- `git add` to **stage** changes
+- `git commit` to **commit** changes
+
+-----------------------------------------------------
+
 ### Starting from Scratch (with RStudio)
 
 Check your version.
@@ -104,26 +129,6 @@ simon@partyLaptop:~$
 ```bash
 simon@partyLaptop:~$ git init
 ```
-
------------------------------------------------------
-
-## `git` Workflow
-
-- Initialize (set up the infrastructure)
-- Edit
-- Stage the changes before we commit the changes
-- Commit the changes to `git`
-
------------------------------------------------------
-
-### Local `git` Workflow
-
-- `git init` - Initialize a repository
-- Make changes (atomic changes)
-- `git add` to **stage** changes
-- `git commit` to **commit** changes
-
------------------------------------------------------
 
 ## Using RStudio
 

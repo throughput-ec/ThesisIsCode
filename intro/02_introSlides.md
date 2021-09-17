@@ -27,30 +27,42 @@ ideas + data + text + formatting
 
 --------------------------------------------------------------------------------
 
-## A Thesis is Ideas
+## A Thesis is **Ideas**
 
 **IDEAS** + data + text + formatting
 
 - We have expectations and hypotheses that we aim to test
 - Our project design is based on assumptions
 
+<center>
+  <img src="../images/noun_collaboration_116784.png" width="30%" alt="People talking about ideas">
+</center>
+
 --------------------------------------------------------------------------------
 
-## A Thesis is Data
+## A Thesis is **Data**
 
 ideas + **DATA** + text + formatting
 
 - Data is the product of experimental design and has constraints
 - Data collection and processing is part of a workflow
 
+<center>
+  <img src="../images/noun_binary_1724349.png" width="30%" alt="Zeros and ones.">
+</center>
+
 --------------------------------------------------------------------------------
 
-## A Thesis is Text
+## A Thesis is **Text**
 
 ideas + data + **TEXT** + formatting
 
 - Text depends on results from analysis
 - Text is structured, ordered and order has meaning
+
+<center>
+  <img src="../images/noun_Files_53644.png" width="30%" alt="Zeros and ones.">
+</center>
 
 --------------------------------------------------------------------------------
 
@@ -94,6 +106,7 @@ ideas + data + text + **FORMATTING**
 - Working on _Features_
 - Testing _Assumptions_
 - Building _Workflows_
+
 --------------------------------------------------------------------------------
 
 ## Software Development: FEATURES
@@ -102,7 +115,7 @@ ideas + data + text + **FORMATTING**
 
   - Thesis elements are "units" (a chapter, a statistical test, a graph, a table)
   - A unit can be its own file
-  - A unit has expected inputs & outputs
+  - A unit has expected *inputs* & *outputs*
   - A unit can have versions
 
 --------------------------------------------------------------------------------

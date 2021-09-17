@@ -28,7 +28,6 @@ output:
 ## Your Markdown Thesis - Disadvantages
 
 - Disadvantages
-
   - Can be a pain to edit collaboratively
   - "Some" learning curve
 
@@ -37,7 +36,7 @@ output:
 ## Overall Benefits
 
 - Final product is reproducible
-- You are awesome
+- You are __awesome__
 - Can be easily shared, modified & updated
 
 ---------------------------------
@@ -70,7 +69,9 @@ output:
 
   - Figures (raw, finished); Code; Data (input/output); Save Google Sheet to file.
   
+<center>
 <img src="../images/RPROJECT_2000dpi.png" width=30% alt="Project setup">
+</center>
 
 [image ref](https://martinctc.github.io/blog/rstudio-projects-and-working-directories-a-beginner's-guide/)
 
@@ -101,11 +102,47 @@ author: Simon Goring
 
 ---------------------------------
 
+### YAML - Continues
+
+- Any tags are accepted (`date`, `abstract`, `keywords`)
+
+```yaml
+---
+title: Some title
+author: 
+- Simon Goring
+- Socorro Dominguez
+abstract: >
+  I can move stuff to a new line.
+---
+```
+
+---------------------------------
+
+### YAML - Continues pt 2
+
+- Any tags are accepted (`date`, `abstract`, `keywords`)
+
+```yaml
+---
+title: Some title
+author: 
+- Simon Goring
+- Socorro Dominguez
+abstract: >
+  I can move stuff to a new line.
+---
+```
+
+Format specific options for [html](https://bookdown.org/yihui/rmarkdown/html-document.html), [pdf](https://bookdown.org/yihui/rmarkdown/pdf-document.html), [Word](https://bookdown.org/yihui/rmarkdown/word-document.html), &cetera.
+
+---------------------------------
+
 ## Main Elements - Markdown
 
 - How you actually apply styles/links &cetera
 - Good Markdown Resources:
-  - [RMarkdown the Difinitive Guide](https://bookdown.org/yihui/rmarkdown/)
+  - [RMarkdown the Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
   - [GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/)
 
 
@@ -117,7 +154,7 @@ author: Simon Goring
 
 <pre>
 Here is writing
-```{r}
+```{r namedCodeBlock}
 this <- is(code)
 ```
 Here is writing that uses `r this` result.
@@ -142,10 +179,10 @@ Or, with `bash` (Mac & Linux) you can [build on save](https://gist.github.com/Si
 - We can knit to PDF, HTML, DOCX (and other formats)
 - Options depend on options in the `yaml` header (in part)
 - RMarkdown `render`:
-  - Runs each R blockthe R code
+  - Runs each R code block
   - Creates a raw Markdown file
-  - Replaces code with code results
-  - Converts file format to desired output
+  - Replaces code with code results (knits)
+  - Converts file format to desired output with Pandoc
 
 ---------------------------------
 
@@ -158,8 +195,9 @@ Or, with `bash` (Mac & Linux) you can [build on save](https://gist.github.com/Si
 table <- read.csv('data/input/GitHubRepos.csv')
 ```
 
-The table has `r nrow(rows)`.
+The table has `r nrow(rows)`, but there are less READMEs than a dozen eggs.
 </pre>
+
 ---------------------------------
 
 ## How Does it Look?
@@ -178,17 +216,22 @@ The table has `r nrow(rows)`.
 
 - We want to make sure our text follows from our analysis.
 
-> meaning less than 300 papers about climate. Shocking!
+<pre>
+```{r loadData}
+table <- read.csv('data/input/GitHubRepos.csv')
+```
 
-- But is it?
+The table has `r nrow(rows)`, but there are less READMEs than a dozen eggs.
+</pre>
+
+- But are there?
 
 ---------------------------------
 
 ## Writing Assertions
 
-
 ```r
-assertthat::assert_that(climate[[1]]$hits < 300, msg="The hits are greater than 300 now!")
+assertthat::assert_that(sum(!is.na(table$README)) < 12, msg="There are more readme's than a dozen eggs.")
 ```
 
 - If the assertion fails then the code doesn't `knit` and you have an informative error message telling you why.
@@ -197,8 +240,4 @@ assertthat::assert_that(climate[[1]]$hits < 300, msg="The hits are greater than 
 
 ## Summary
 
----------------------------------
-
-## Summary
-
-- You've created a thesis chapter
+- You've created a thesis chapter.

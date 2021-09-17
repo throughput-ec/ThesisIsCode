@@ -42,7 +42,7 @@ An NSF Funded Research project [NSF-1928366](https://nsf.gov/awardsearch/showAwa
 ## Education & Outreach
 
 - We are good at doing research
-- We are not often good at documenting it [(Lee 2018)](https://doi.org/10.1371/journal.pcbi.1006561)
+- We are not often good at documenting it ([Lee 2018](https://doi.org/10.1371/journal.pcbi.1006561))
 - We are finding new uses for old research
 
 <center>
@@ -73,12 +73,17 @@ An NSF Funded Research project [NSF-1928366](https://nsf.gov/awardsearch/showAwa
 
 ## Earth Science Cookbook
 
-- [throughputdb.com]()
+- [throughputdb.com](https://throughputdb.com)
 - Keyword and full-text searches for databases and the scripts that use them.
-  - How do I connect climate and soils data?
+  > How do I connect climate and soils data?
+  > How do I work with data from a database?
 
 --------------------------------------------------------------------------------
 
 ## Collaboration
 
-All our work is open source & collaboration is welcome. [http://github.com/throughput-ec]()
+All our work is open source & collaboration is welcome. [http://github.com/throughput-ec](http://github.com/throughput-ec)
+
+<center>
+  <img src="../images/GitHub-Mark.png" width="30%" alt="The GitHub logo">
+</center>
