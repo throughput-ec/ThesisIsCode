@@ -87,7 +87,62 @@ The `main.yaml` file in the ThesisIsCode repository, and the actions that we per
 
 ## Docker
 
-SJG - Make sure you do something here before you play Mario Kart 8.
+### Improving your workflow with Docker
+
+[Docker](https://www.docker.com/) is a containerization tool. We can think of Docker as another computer inside your computer.  What does this mean? We will make a self-contained computing *environment*, separate from your OS (Mac, Windows, Linux) that will be portable and lightweight. It also makes sure that any program dependencies won't conflict with programs you have running on your computer now, and because you can share the Docker *images*, your collaborators can easily set up a container on their computer with the same settings as yours.
+
+Docker allows us to create *containers*. A *container* is an *instance* of an *image*. A `Dockerfile` defines the contents of the image.  A `Dockerfile` is a plain text file that contains a set of instructions to build an image.  With a valid `Dockerfile` we can run the command `docker build` to create the container on our computer. The image can then be deployed or transported to any platform since it is self-contained and run as a container (`docker run`).
+
+Although you can create your own image, there are pre-built images available from several locations such as [DockerHub](https://hub.docker.com/). Let’s check out the [`Rocker` project RStudio image](https://hub.docker.com/r/rocker/rstudio) to run RStudio (without installing it) from a browser.
+
+The DockerHub page of the Rocker project lists all available Rocker repositories. Let’s pull the `rocker`/`RStudio` image from DockerHub by executing the following command in the terminal:
+
+```bash
+docker pull rocker/rstudio
+```
+
+This will pull the RStudio image from the Rocker DockerHub repository. We can run a container based on this image by typing the following into the terminal:
+
+```bash
+docker run -d -p 8787:8787 -v $(pwd):/home/rstudio -e PASSWORD=yourpasswordhere rocker/rstudio
+```
+
+You are now running RStudio inside a Docker container! We need to access the browser to start using RStudio.
+
+You will be required to have username & password credentials.
+
+For username use: rstudio             <- cannot be changed
+For password use: yourpasswordhere    <- change this as you wish
+
+What do the `-p` and `-v` flags mean?
+
+* `-v` : A “volume” has been mounted. This means that usually, all work that you did in a container would be lost once the container stopped. This -v will help you save your work in your local machine. $(pwd) means it will be saved in the current working directory.
+* `-p` : This is the port that you need to specify where you will be working. Since we specified that we wanted to use port 8787 in our command line, we need to go to:
+http://localhost:8787/
+
+(The `-e` flag is a personalized flag defined by the operator, in this case it is to pass a password which is a requirement to run the RStudio image)
+
+Congratulations! You can work in a containerized version of R!
+
+### Why is this useful?
+
+Imagine that you have to run your thesis on a different computer. You would need to download not only R but all the other packages/dependencies that you used for your thesis. With containerization, you could build an image and download that image as needed.
+
+Once you have finished the project, do not forget to close the container. To do this, you first need to find the name of the container:
+
+```bash
+docker ps
+```
+
+A list will pop up and you can just then close the container by typing:
+
+```bash
+docker stop <name of container> 
+```
+
+To learn more! You can create your own images by writing Dockerfiles.
+Learn how to write one here:
+https://www.statworx.com/at/blog/running-your-r-script-in-docker/#:~:text=need%20a%20Dockerfile.-,The%20Dockerfile,-With%20a%20Dockerfile
 
 ## Secrets (shhh!)
 
